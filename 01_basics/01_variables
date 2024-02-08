@@ -1,0 +1,3 @@
+const all = 1235
+
+// never use var , its old and not in use now 
