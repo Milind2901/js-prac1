@@ -31,7 +31,7 @@ Return type of variables in JavaScript
        Arrays  =>  object
        Function  =>  function(object)
        Object  =>  object
-
+       
 */ 
 
 
