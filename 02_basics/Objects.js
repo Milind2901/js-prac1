@@ -44,6 +44,17 @@ Object.entries(obj1)  // returns key value pair as array
 
 obj1.hasOwnProperty('email')  // returns as boolean 
 
+// Destructuing object 
+
+const course = {
+    coursename : "js in hindi",
+    price :"999",
+    courseInstructor : "hitesh"
+}
+
+const {courseInstructor : Instructor} = course  // Result : Hitesh
+
+
 
 
 
