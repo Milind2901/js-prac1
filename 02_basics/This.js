@@ -61,5 +61,5 @@ const addone = (num1,num2) => {username : "Milind"}   // Result : undefined
 
 const addTWo = (num1,num2) => ({username : "Milind"}) // Result - username : "Milind" , this is the advantage of using paranthesis for returning 
 
-// object ko implicityly return karne ke liye usko paranthesis mai wrap karna hi padega 
+// object ko implicitly return karne ke liye usko paranthesis mai wrap karna hi padega 
 
