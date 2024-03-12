@@ -26,7 +26,7 @@ then the code executes all the code after the matched case -except the default o
 
 // TRUTHY & FALSY VALUES 
 
-Falsy Values - matlab kin kin values ko false assume kiya jata hai 
+//Falsy Values - matlab kin kin values ko false assume kiya jata hai 
 
 // false , 0 , -0 , BigInt 0n , "" , null , undefined , NaN
 
