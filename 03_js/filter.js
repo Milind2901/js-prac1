@@ -14,4 +14,4 @@ const newNums = myNumber.filter( (num) => {
 
 console.log(newNums)  // Result : [3,4,5]
 
-
+// Fiter only returns the truthy values of the condition mentioned 
