@@ -47,3 +47,6 @@ const myCoding = [
 myCoding.forEach( (item) => {
     console.log(item.languageName);
 })
+
+// Imp : For Each doesn't returns any values
+
