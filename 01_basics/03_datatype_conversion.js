@@ -30,7 +30,7 @@ console.log(typeof someStringnumber);
 
 
  null > 0    false     (0 > 0 is false)                 // comparison operators convert null to a number i.e. to 0 or to Nan 
- null == 0   false                                         equal operator treats null as null itself 
+ null == 0   false                                      //   equal operator treats null as null itself 
  null >= 0    true    ( 0 >=0  is true)
 
  undefined == 0 , > 0,  < 0    false 
