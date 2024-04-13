@@ -3,7 +3,7 @@ const Array = [0,1,2,true,"Milind"]   // different datatypes in same array are v
 
 /*
 
-Copying operation in arrays create Shallow Copies 
+Copy operation in arrays create Shallow Copies 
 
 Shallow copies - variables share the same refernece object , any change made is a change reflected in all 
 Deep copies - variables do not share the same refernece points , changes made are seperate and unique
