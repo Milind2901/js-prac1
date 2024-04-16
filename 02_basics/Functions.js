@@ -75,7 +75,7 @@ console.log(returnArray(myNewArray))
 
 // Don't use var - it just ruins the scope shit 
 
-// Global scope - when code is run into console and when run into the code environment through node  , is different for both . 
+// Global scope - when code is run into browser console and when run into the code environment through node  , is different for both . 
 
 // Child function can access the variables of the parent fn , but not vice versa .  
 
