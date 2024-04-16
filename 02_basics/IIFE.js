@@ -28,4 +28,4 @@ function ko hi () mai wrap karke ek block banake , aur aage () lagake directly h
 
 ( (name) => {
     console.log(`DB CONNCETED ${name}`)
-}) ('Milind')
+}) ('Milind')   // Milind is passed as an argument of function 
