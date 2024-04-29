@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milind Chaturvedi</title>
+</head>
+<body style = "background-color: #212121; color :#fff">
+    <ul class ="language">
+        <li> Javascript </li>
+    </ul>
+</body>
+<script>
+
+    function addLanguage(langName){
+        const li = document.createElement('li');   // element is created 
+        li.innerHTML = `${langName}`              // li tag is given a language name 
+        document.querySelector('.language').appendChild(li)  // ul tag pe append karna hai li so we select the class and append the child li tag 
+    }
+    addLanguage("python")   // function ko run kara liya 
+    addLanguage("typescript")
+
+    function addOptiLanguage(langName){       // optimised version of above function , advised for bigger projects , isme 
+        const li = document.createElement('li') ;   // li element created
+        li.appendChild(document.createTextNode(langName))  // text node create kari , fir usko directly append kardia li mei 
+        document.querySelector('.language').appendChild(li)  // li koappend kardiya ul mei 
+    }
+    addOptiLanguage("Golang")   // innerHTML wali approach mei traverse karta poora tree , but in text node esa kuch nahi hota
+
+    // EDITING values  
+    const secondLang = document.querySelector("li:nth-child(2)")  // selecting python in li - 2nd value 
+    const newLi = document.createElement('li')
+    newLi.textContent = "Mojo"
+    secondLang.replaceWith(newLi) 
+
+    // edit 
+    const firstLang = document.querySelector("li:first-child")
+    firstLang.outerHTML = '<li>TypeScript</li>'
+
+    // remove 
+    const lastLang = document.querySelector("li:last-child")
+    lastLang.remove()
+    
+</script> 
+</html>
